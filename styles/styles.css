@@ -1,0 +1,15 @@
+/* General Styles */
+
+:root {
+    --bg-color: #f0f2f5;
+    --panel-color: #ffffff;
+    --accent-color: #ff5252;
+    --text-color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
