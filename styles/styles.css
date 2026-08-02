@@ -78,3 +78,15 @@ button:active {
     color: #ffffff;
     border-color: #333333;
 }
+
+#clear-btn:hover {
+    background-color: #555555;
+    border-color: #555555;
+}
+
+.grid-info {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
