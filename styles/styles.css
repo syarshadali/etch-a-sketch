@@ -90,3 +90,24 @@ button:active {
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
+
+
+/* Sketchpad Grid Setup */
+
+#grid-container {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 4px solid #333333;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap; /* Allows internal square divs to wrap cleanly */
+    overflow: hidden;
+}
+
+.grid-square {
+    background-color: transparent;
+    /* Explicit transition prevented to avoid drawing lag */
+    transition: background-color 0.1s ease;
+}
