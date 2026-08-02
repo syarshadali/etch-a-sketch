@@ -65,3 +65,16 @@ button:hover {
     color: var(--accent-color);
     background-color: #fff5f5;
 }
+
+button:active {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border-color: var(--accent-color);
+}
+
+#clear-btn {
+    margin-top: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #333333;
+}
