@@ -68,3 +68,17 @@ function handleDraw(e) {
         }
     }
 }
+
+
+// UI State Management: Mode Switching Indicators
+
+modeButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        // Strip prior target styling classes
+        modeButtons.forEach(btn => btn.classList.remove('active'));
+
+        // Inject active visual anchor matching action mode string identifier
+        e.target.classList.add{'active'};
+        currentMode = e.target.id.replace('-btn', '');
+    });
+});
