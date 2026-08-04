@@ -38,3 +38,16 @@ function createGrid(size) {
         container.appendChild(square);
     }
 }
+
+
+// Interactive Tooling: Draw Engine Switcher
+
+function handleDraw(e) {
+    const element = e.target;
+
+    if (currentMode === 'black') {
+        element.style.backgroundColor = '#000000';
+        element.dataset.darkness = '0'; // Reset Tracking Value
+        console.log(element);
+    }
+}
