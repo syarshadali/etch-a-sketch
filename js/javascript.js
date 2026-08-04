@@ -49,5 +49,22 @@ function handleDraw(e) {
         element.style.backgroundColor = '#000000';
         element.dataset.darkness = '0'; // Reset Tracking Value
         console.log(element);
+    } else if (currentMode === 'rainbow') {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+        element.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+        element.dataset.darkness = '0';
+        console.log(element);
+    } else if (currentMode === 'shading') {
+        // Read previous layout data opacity metric
+        let currentDarkness = parseFloat(element.dataset.darkness);
+
+        if (currentDarkness < 1.0) {
+            currentDarkness += 0.1;
+            element.dataset.darkness = currentDarkness.toString();
+            element.style.backgroundColor = `rgba(0, 0, 0, ${currentDarkness})`;
+            console.log(element);
+        }
     }
 }
