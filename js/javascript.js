@@ -98,3 +98,14 @@ resizeBtn.addEventListener('click', () => {
         alert("Invalid size constraint window target. Choose an integer value from 1 to 100.");
     }
 });
+
+
+// Canvas Reset Mechnics
+clearBtn.addEventListener('click', () => {
+    // Regeneration cleans memory structures cleanly
+    createGrid(currentGridSize);
+});
+
+
+// Application Execution Root
+createGrid(currentGridSize);
