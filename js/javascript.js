@@ -81,3 +81,20 @@ modeButtons.forEach(button => {
         currentMode = e.target.id.replace('-btn', '');
     });
 });
+
+
+// Mutation Handling: Resize Dialog Rules
+resizeBtn.addEventListener('click', () => {
+    let userSelection = prompt("Enter size (Integer up to 100) :", currentGridSize);
+
+    if (userSelection === null) return; // Action aborted exit point
+
+    let parsedSize = parseInt(userSelection);
+
+    if (!isNaN(parsedSize) && parsedSize > 0 && parsedSize <= 100) {
+        currentGridSize = parsedSize;
+        createGrid(currentGridSize);
+    } else {
+        alert("Invalid size constraint window target. Choose an integer value from 1 to 100.");
+    }
+});
