@@ -49,6 +49,10 @@ h1 {
     min-width: 200px;
 }
 
+
+/* Button Specific Styles */
+
+
 button {
     padding: 12px 20px;
     font-size: 1rem;
@@ -72,6 +76,10 @@ button:active {
     border-color: var(--accent-color);
 }
 
+
+/* Clear Button Specific Styles */
+
+
 #clear-btn {
     margin-top: 10px;
     background-color: #333333;
@@ -93,6 +101,7 @@ button:active {
 
 
 /* Sketchpad Grid Setup */
+
 
 #grid-container {
     width: 500px;
