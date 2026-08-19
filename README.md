@@ -13,6 +13,12 @@ This is the fourth foundations and the second javascript project of the full sta
 <b>Layout:</b>
 <p>Using display: flex and flex-wrap: wrap on the wrapper box to ensure all the div squares pack together neatly.</p>
 
+<b>Etch-A-Sketch Effect:</b>
+<p>Adding an event listener to the grid squares that changes their background color when the mouse mouseover or mouseenter events are fired.</p>
+
+<b>Dynamic Sizing:</b>
+<p>Including a feature or button that prompts the user for a new grid size (for example inputting 20 for 20 x 20 grid) and clears the board.</p>
+
 <b>SKILLS DEMONSTRATED:</b>
 <ul>
     <li>Use of Flexbox and its properties in interface layout creation.</li>
