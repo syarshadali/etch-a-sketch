@@ -7,6 +7,11 @@ This is the fourth foundations and the second javascript project of the full sta
 
 <b>KEY REQUIREMENTS:</b>
 
+<b>Grid Creation:</b>
+<p>By using javascript loops to dynamically generate a grid of square div elements.</p>
+
+<b>Layout:</b>
+<p>Using display: flex and flex-wrap: wrap on the wrapper box to ensure all the div squares pack together neatly.</p>
 
 <b>SKILLS DEMONSTRATED:</b>
 <ul>
