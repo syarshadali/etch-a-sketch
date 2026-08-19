@@ -1,6 +1,10 @@
 # etch-a-sketch
 This is the fourth foundations and the second javascript project of the full stack development course of The Odin Project.
 
+<b>OBJECTIVES:</b>
+
+<p>The most popular "Etch-A-Sketch" is a browser-based sketchpad which tests the HTML, CSS and DOM Manipulation skills by building a dynamic grid of square divs where hovering over the square divs by mouse draws sketch in the sketchpad.</p>
+
 <b>SKILLS DEMONSTRATED:</b>
 <ul>
     <li>Use of Flexbox and its properties in interface layout creation.</li>
