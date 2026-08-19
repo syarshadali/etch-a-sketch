@@ -7,23 +7,6 @@ This is the fourth foundations and the second javascript project of the full sta
 
 <b>KEY REQUIREMENTS:</b>
 
-<ul>
-    <li><b>Grid Creation:</b></li>
-
-    <p>By using javascript loops to dynamically generate a grid of square div elements.</p>
-
-    <li><b>Layout:</b></li>
-
-    <p>Using display: flex and flex-wrap: wrap on the wrapper box to ensure all the div squares pack together neatly.</p>
-
-    <li><b>Etch-a-Sketch Effect:</b></li>
-
-    <p>Adding an event listener to the grid squares that changes their background color when the mouse mouseover or mouseenter events are fired.</p>
-
-    <li><b>Dynamic Sizing:</b></li>
-
-    <p>Including a feature or button that prompts the user for a new grid size (for example inputting 20 for 20 x 20 grid) and clears the board.</p>
-</ul>
 
 <b>SKILLS DEMONSTRATED:</b>
 <ul>
