@@ -19,6 +19,18 @@ This is the fourth foundations and the second javascript project of the full sta
 <b>Dynamic Sizing:</b>
 <p>Including a feature or button that prompts the user for a new grid size (for example inputting 20 for 20 x 20 grid) and clears the board.</p>
 
+<b>FEATURES:</b>
+
+<b>Rainbow Pen (Random Colors):</b>
+<p>To create a rainbow effect, generate a random RGB value every time a square is hovered.</p>
+
+<b>Progressive Shading (10% Darker Per Pass):</b>
+<p>To make squares get progressively darker, track an opacity value or darkness level. The easiest way is using rgba or keeping track of the pass count using a custom data attribute (data-darkness).</p>
+
+<b>Creating a Multi-Mode Controller:</b>
+<p>To let users toggle between Classic Black, Rainbow, Shading and Clear, use a standard state variable in javascript.</p>
+
+
 <b>SKILLS DEMONSTRATED:</b>
 <ul>
     <li>Use of Flexbox and its properties in interface layout creation.</li>
